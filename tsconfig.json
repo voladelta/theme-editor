@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "isolatedModules": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["solid-js", "vite/client", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "~/api/*": ["src/api/*"],
+      "~/lib/*": ["src/lib/*"],
+      "~/store/*": ["src/store/*"],
+      "~/element/*": ["src/element/*"],
+      "~/component/*": ["src/component/*"]
+    }
+  }
+}
